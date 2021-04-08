@@ -1,0 +1,43 @@
+main {
+    display: flex;
+    width: 100%;
+}
+
+body {
+    padding: 4rem 10rem;
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+}
+
+.img-container{
+    width: 58.5%;
+    min-height: 50rem;
+    margin-right: 2.5rem;
+}
+
+.text-container {
+    width: 38.5%;
+    text-align: left;
+    margin-left: 2.5rem;
+}
+
+section {
+    margin-top: 4rem;
+}
+
+.main-text__title {
+
+    padding: 2rem 0;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    bottom: 10%;
+    right: 0%;
+}
+
+.insta{
+    margin-right: 10rem;
+}
